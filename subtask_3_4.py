@@ -30,7 +30,7 @@ for i, (x_feature, y_feature) in enumerate(pairs, 1):
                         label=f'Quality {quality}', s=100)
     plt.title(f'{x_feature} vs {y_feature}')
 plt.tight_layout()
-plt.savefig('scatter_plots.png')
+plt.savefig('subtask_3_1.png')
 plt.close()
 
 plt.figure(figsize=(12, 8))
@@ -41,7 +41,7 @@ for i, feature in enumerate(selected_features, 1):
                  element='poly')
     plt.title(f'Distribution of {feature}')
 plt.tight_layout()
-plt.savefig('histograms.png')
+plt.savefig('subtask_3_2.png')
 plt.close()
 
 
